@@ -1,0 +1,45 @@
+.menu {
+    width: 80px;
+    height: 100vh;
+    background: var(--text-bg-gray-0, #F8F8F8);
+    margin-top: 0;
+    position: relative;
+
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    }
+
+.icon {
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    justify-content: center;
+    border-radius: 8px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+
+
+.menu_bottom{
+    position: absolute;
+    bottom: 0;
+}
+
+    .menu_bottom img{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+
+ul a:hover {
+    background-color: #F0F0F0;
+    color: white;
+}
+
