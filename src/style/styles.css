@@ -91,8 +91,11 @@ h2{
     padding-right: 20px;
     border-bottom: 2px solid #e8e8e8 ; 
 }
-
-.chat-up p:first-child{
+.vhod{
+    display: flex;
+    position: relative;
+}
+.vhod p{
     font-weight: 700;
     padding-bottom: 10px;
     padding-left: 10px;
@@ -100,13 +103,18 @@ h2{
     border-bottom: 2px solid #000;
     margin-top: 10px;
     margin-left: 40px;
-    
 }
 
-.pun {
-    margin-right: 45px;
+.vhod img{
+    position: absolute;
+    margin-left: 158px;
+    margin-top: 5px;
+
 }
 
+.pun{
+    margin-left: 45px;
+}
 .chat-menu a:first-child{
     text-decoration: none;
     color: var(--text-bg-gray-4, #333);
@@ -122,7 +130,6 @@ h2{
 
 .chat-menu{
     margin-top: 25px;
-    margin-bottom: 17px;
     padding-bottom: 25px;
     border-bottom: 2px solid #e8e8e8;
 }
@@ -144,3 +151,58 @@ h2{
     vertical-align: middle;
     padding-left: 5px;
 }
+
+
+.chat-message{
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    background-color: #f3f3f5;
+    border-bottom: 2px solid #e8e8e8;
+}
+.chat-message2{
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    
+    border-bottom: 2px solid #e8e8e8;
+}
+
+
+.chat-body{
+    margin-left: 20px;
+    margin-right: 33px;    
+}
+
+.chat-body p:first-child{
+    padding-bottom: 3px;
+    font-weight: 700;
+}
+
+.clock{
+    position: relative;
+}
+
+.clock2 {
+    position: absolute;
+    margin-left: 57px;
+    
+}
+.clock1 {
+    display: flex;
+    position: absolute;
+    top: 15px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 15px;
+    border: 2px solid #e8e8e8;
+}
+
+.clock1 img{
+    margin-right: 10px;
+}
+
